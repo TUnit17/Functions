@@ -78,12 +78,15 @@ bankAccountBalance = purchaseItem(currentBalance: bankAccountBalance, itemPrice:
  
  }
  
- 
- 
- purchaseItem(currentBalance: &bankAccountBalance, itemPrice: shoes)
- 
- var lunchBox = 40.00
- 
+
+//buy shoes2
+var bankAccountBalance2 = 500.00
+var shoes2 = 350.00
+purchaseItem(currentBalance: &bankAccountBalance2, itemPrice: shoes2)
+
+
+//buy lunchbox
+var lunchBox = 40.00
 purchaseItem(currentBalance: &bankAccountBalance, itemPrice: lunchBox)
 
 
